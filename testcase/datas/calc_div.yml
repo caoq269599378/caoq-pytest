@@ -1,0 +1,10 @@
+div:
+  datas:
+    - [1,1,1]
+    - [400,200,2]
+    - [0.2,0.1,2]
+    - [-8,2,-4]
+    - [1,2,0.5]
+    - [0,1,0]
+    - [4,0,'None']
+  ids: ['int','bignum','minus','negative','fraction','result0','illegal']
