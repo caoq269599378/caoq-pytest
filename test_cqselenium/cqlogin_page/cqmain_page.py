@@ -12,6 +12,7 @@ class MainPage:
         #self.driver = webdriver.Chrome(options=chrome_arg)
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(5)
+        self.driver.get("https://work.weixin.qq.com")
 
     def goto_register(self):
         self.driver.find_element(By.XPATH, "//*[@class='index_head_info_pCDownloadBtn']").click()

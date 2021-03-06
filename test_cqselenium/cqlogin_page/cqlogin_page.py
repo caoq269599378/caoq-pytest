@@ -10,7 +10,7 @@ class LoginPage:
 
     def goto_register(self):
         self.driver.find_element(By.XPATH, "//*[@class='login_registerBar_link']").click()
-        RegisterPage(self.driver)
+        return RegisterPage(self.driver)
 
     def scan(self):
         pass

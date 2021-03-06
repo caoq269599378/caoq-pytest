@@ -1,5 +1,6 @@
-from time import sleep
+###在企业微信添加通讯录###
 
+from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -24,4 +25,4 @@ class TestTmp():
         self.driver.find_element(By.XPATH, "//*[@id = 'memberAdd_phone']").send_keys("12345678901")
         self.driver.find_element(By.XPATH, "//*[@class = 'qui_btn ww_btn js_btn_save']").click()
 
-    
+
